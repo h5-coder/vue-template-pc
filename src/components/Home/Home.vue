@@ -28,7 +28,7 @@
 <script>
     import comHeader from '@/components/Header/Header.vue'
     import MenuBar from '@/components/MenuBar/MenuBar.vue'
-    import ApiService from '@/services/API-servies'
+    import ApiService from '@/services/API-service'
     import { mapState, mapActions, mapGetters } from 'vuex'
 
     export default {
