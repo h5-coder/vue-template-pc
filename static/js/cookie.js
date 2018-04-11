@@ -15,12 +15,12 @@ export default {
         let d = new Date();
         d.setTime(d.getTime() + ms);
         let expires = "expires=" + d.toGMTString();
-        document.cookie = cname + "=" + cvalue + "; " + expires"; path=/";
+        document.cookie = cname + "=" + cvalue + "; " + expires+"; path=/";
     },
     del(name) {
         var exp = new Date();
         exp.setTime(exp.getTime() + (-1 * 24 * 60 * 60 * 1000));
         var cval = this.get(name);
-        document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString()"; path=/";
+        document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString()+"; path=/";
     }
 }
