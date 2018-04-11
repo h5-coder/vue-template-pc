@@ -16,6 +16,8 @@
     "less": "^2.7.3",
     "less-loader": "^4.1.0",
     "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^6.0.0",
     "vue-router": "^3.0.1",
     "vuex": "^2.5.0"
   },
@@ -44,6 +46,8 @@
     "rimraf": "^2.6.0",
     "semver": "^5.5.0",
     "shelljs": "^0.7.6",
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.8.1",
     "url-loader": "^0.5.8",
     "vue-loader": "^14.2.1",
     "vue-style-loader": "^2.0.5",
