@@ -1,6 +1,6 @@
 <template>
     <div class="">
-                主页
+        主页
     </div>
 </template>
 
@@ -28,7 +28,7 @@
         methods: {
 
         },
-        //生命周期函数
+        //生命周期函数 请求写在created中
         created() {
 
         },
@@ -38,12 +38,12 @@
         mounted() {
 
         },
-        //监视
-        watch: {
-
-        },
         //组件
         components: {
+
+        },
+        //监视
+        watch: {
 
         },
         //过滤器
