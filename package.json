@@ -1,5 +1,5 @@
 {
-  "name": "vue-template-pc",
+  "name": "depth-demo",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "liangyanxiang",
@@ -11,13 +11,13 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "echarts": "^4.0.4",
-    "element-ui": "^2.2.2",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.4.0",
     "less": "^2.7.3",
     "less-loader": "^4.1.0",
     "vue": "^2.5.16",
     "vue-class-component": "^6.2.0",
-    "vue-property-decorator": "^6.0.0",
+    "vue-property-decorator": "^6.1.0",
     "vue-router": "^3.0.1",
     "vuex": "^2.5.0"
   },
