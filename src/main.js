@@ -1,4 +1,5 @@
 //js
+import 'babel-polyfill'//解决IE兼容问题
 import Vue from 'vue';
 import router from './router';
 import ElementUI from 'element-ui';
