@@ -1,8 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
-//home组件
-const Home = resolve => require(['@/components/Home/Home.vue'], resolve)
 import Index from './map/index'
 
 //重定向 放最后面
