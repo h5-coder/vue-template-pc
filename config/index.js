@@ -20,6 +20,7 @@ module.exports = {
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
         proxyTable: {},
-        cssSourceMap: false
+        cssSourceMap: false,
+        useEslint:true,//Eslint开关
     }
 }

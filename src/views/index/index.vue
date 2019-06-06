@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    //import  from ''
+    // import  from ''
 
     export default {
         //组件名

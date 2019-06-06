@@ -1,26 +1,27 @@
-//js
-import 'babel-polyfill'//解决IE兼容问题
+// js
+import 'babel-polyfill'// 解决IE兼容问题
 import Vue from 'vue';
 import router from './router';
 import ElementUI from 'element-ui';
-import store from './vuex/store';
+import store from './store/';
 import cookie from '@/../static/js/cookie.js';
 import filters from './filters/index.js';
 import directives from '@/directives/index.js';
 
-//css
+// css
 import '../static/css/reset.css'
 import '../static/css/element-ui.css'
 import '../static/css/iconfont.css'
 
-//less
-import "./less/index.less"
+// less
+import './less/index.less'
 
 Vue.use(ElementUI);
 
 router.beforeEach((to, from, next) => {
 
     if(false) {
+
         next({
             path: '/index',
             query: {
@@ -32,7 +33,7 @@ router.beforeEach((to, from, next) => {
     }
 });
 
-//Vue.config.silent = true;
+// Vue.config.silent = true;
 Vue.config.productionTip = false;
 
 window.vueVm = new Vue({

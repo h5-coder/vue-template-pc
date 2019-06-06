@@ -20,7 +20,7 @@ const encodeParams = (params) => {
     return r + p.join('&&');
 };
 
-//请求类
+// 请求类
 class ApiService {
     constructor() {
         this.node = {
@@ -38,7 +38,7 @@ class ApiService {
             create: this.post.bind(this, API.CHAIN.create),
             record: this.post.bind(this, API.CHAIN.record),
             getList: this.post.bind(this, API.CHAIN.getList),
-            details: this.post.bind(this, API.CHAIN.details), //链详情
+            details: this.post.bind(this, API.CHAIN.details), // 链详情
             joinedList: this.post.bind(this, API.CHAIN.joinedList),
             getTradingVol: this.post.bind(this, API.CHAIN.getTradingVol),
             getBlockTotal: this.post.bind(this, API.CHAIN.blockTotal),
@@ -106,5 +106,5 @@ class ApiService {
 
 }
 
-//导出一个对象
+// 导出一个对象
 export default new ApiService();

@@ -16,9 +16,10 @@ const mutations = {
 
 // 创建 store 实例
 export default new Vuex.Store({
-	modules: {
-		// user,
-	},
-	state
+    modules: {
+        // user,
+    },
+    state,
+    mutations
 })
 

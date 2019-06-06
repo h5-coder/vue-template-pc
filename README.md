@@ -18,3 +18,9 @@ npm run build
 npm run build --report
 ```
 
+## Eslint
+
+##### 开关
+`config/index.js`中`config.dev.useEslint`的值
+- `true`为开启Eslint代码检查
+- `false`为关闭Eslint代码检查

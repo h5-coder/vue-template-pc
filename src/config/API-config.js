@@ -1,10 +1,10 @@
-//请求地址
-const BASE = process.env.API_ROOT, //http://192.168.1.251:8080
+// 请求地址
+const BASE = process.env.API_ROOT, // http:// 192.168.1.251:8080
     USER_URL = `${BASE}/user/`,
     CHAIN_URL = `${BASE}/chain/`,
     NODE_URL = `${BASE}/chainode/`,
 
-    //节点
+    // 节点
     NODE = {
         join: `${CHAIN_URL}join.do`,
         getAuditList: `${NODE_URL}getAuditList.do`,
@@ -17,7 +17,7 @@ const BASE = process.env.API_ROOT, //http://192.168.1.251:8080
         details: `${NODE_URL}getNodeInfo.do`,
     },
 
-    //链
+    // 链
     CHAIN = {
         create: `${CHAIN_URL}create.do`,
         record: `${CHAIN_URL}getchainRecoders.do`,
@@ -30,7 +30,7 @@ const BASE = process.env.API_ROOT, //http://192.168.1.251:8080
         getChainNodes: `${CHAIN_URL}getChainNodes.do`
     },
 
-    //用户
+    // 用户
     USER = {
         register: `${USER_URL}register.do`,
         login: `${USER_URL}login.do`,
@@ -39,7 +39,7 @@ const BASE = process.env.API_ROOT, //http://192.168.1.251:8080
         getMenuList: `${USER_URL}getMenus.do`,
         logout: `${USER_URL}logout.do`,
     };
-//登录
+// 登录
 export default {
     BASE: BASE,
     NODE: NODE,
