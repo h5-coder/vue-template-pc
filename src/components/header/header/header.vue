@@ -4,6 +4,9 @@
     </el-row>
 </template>
 <script>
+    // import  from ''
+    // import { mapState,mapGetters,mapActions,mapMutations } from 'vuex'
+
     export default {
         name: 'com-header',
         data() {

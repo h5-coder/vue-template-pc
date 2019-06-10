@@ -6,6 +6,7 @@
 
 <script>
     // import  from ''
+    // import { mapState,mapGetters,mapActions,mapMutations } from 'vuex'
 
     export default {
         //组件名
