@@ -1,18 +1,14 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 // import user from './modules/user/module.js'
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 // 应用初始状态
-const state = {
-
-};
+const state = {};
 
 // 定义所需的 mutations
-const mutations = {
-
-};
+const mutations = {};
 
 // 创建 store 实例
 export default new Vuex.Store({
@@ -21,5 +17,4 @@ export default new Vuex.Store({
     },
     state,
     mutations
-})
-
+});

@@ -11,3 +11,4 @@ thumbs.db
 .project
 .idea
 logs/
+package-lock.json

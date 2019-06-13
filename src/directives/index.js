@@ -1,4 +1,3 @@
-
 // import  from './modules/'
 
-export default []
+export default [];
