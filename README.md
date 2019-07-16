@@ -2,7 +2,9 @@
 
 > A Vue.js template project
 
-## Build Setup
+## 开发说明
+
+### Build Setup
 
 ``` bash
 # install dependencies
@@ -18,21 +20,24 @@ npm run build
 npm run build --report
 ```
 
-##### 开发环境端口
+### 开发环境端口
 
 见[webpack配置文件index.js](./config/index.js)中的`dev.port`,默认值为`8081`;
 
-## 技术栈
+### 技术栈、依赖库
+
+见:[package.json](./package.json) 中的`dependencies`。
+_新增依赖需要跟负责人确认之后，才可安装_
 
 ## Eslint
 
-##### 开关
+### 开关
 
 `config/index.js`中`config.dev.useEslint`的值
+
 - `true`为开启Eslint代码检查
 - `false`为关闭Eslint代码检查
 
-
-##### 规则
+### 规则
 
 见:[.eslintrc.js](./.eslintrc.js)
