@@ -23,28 +23,6 @@ const encodeParams = (params) => {
 // 请求类
 class ApiService {
     constructor() {
-        this.node = {
-            join: this.post.bind(this, API.NODE.join),
-            getAuditList: this.post.bind(this, API.NODE.getAuditList),
-            getList: this.post.bind(this, API.NODE.getList),
-            reviewList: this.post.bind(this, API.NODE.reviewList),
-            reviewDetail: this.post.bind(this, API.NODE.reviewDetail),
-            submitReview: this.post.bind(this, API.NODE.submitReview),
-            applicationList: this.post.bind(this, API.NODE.applicationList),
-            applicationDetail: this.post.bind(this, API.NODE.applicationDetail),
-            details: this.post.bind(this, API.NODE.details),
-        }
-        this.chain = {
-            create: this.post.bind(this, API.CHAIN.create),
-            record: this.post.bind(this, API.CHAIN.record),
-            getList: this.post.bind(this, API.CHAIN.getList),
-            details: this.post.bind(this, API.CHAIN.details), // 链详情
-            joinedList: this.post.bind(this, API.CHAIN.joinedList),
-            getTradingVol: this.post.bind(this, API.CHAIN.getTradingVol),
-            getBlockTotal: this.post.bind(this, API.CHAIN.blockTotal),
-            getManageNode: this.post.bind(this, API.CHAIN.getManageNode),
-            getChainNodes: this.post.bind(this, API.CHAIN.blockTotal),
-        }
         this.user = {
             register: this.post.bind(this, API.USER.register),
             login: this.post.bind(this, API.USER.login),

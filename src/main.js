@@ -7,6 +7,8 @@ import store from './store/'
 import '@/../static/js/cookie.js'
 import './filters/index.js'
 import '@/directives/index.js'
+// mock 动态引入用
+process.env.MOCK && require('./mock/index.js')
 
 // css
 import '../static/css/reset.css'
