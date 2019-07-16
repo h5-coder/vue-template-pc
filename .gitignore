@@ -12,3 +12,4 @@ thumbs.db
 .idea
 logs/
 package-lock.json
+.vscode/
