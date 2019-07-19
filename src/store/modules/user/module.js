@@ -1,15 +1,15 @@
 
-import { userAction } from './action'
-import { userGetter } from './getter'
-import { userMutation } from './mutation'
+import { userAction } from './action';
+import { userGetter } from './getter';
+import { userMutation } from './mutation';
 
 export const user = {
     state: {
-        username: 'lyx',
+        username: 'lyx'
     },
     actions: userAction,
     getters: userGetter,
-    mutations: userMutation,
+    mutations: userMutation
 };
 
 export default user;

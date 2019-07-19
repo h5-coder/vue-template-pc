@@ -6,8 +6,8 @@
 //  Copyright 2017 yann_liang. All rights reserved.
 //
 
-import Http from 'axios'
-import API from '@/config/API-config'
+import Http from 'axios';
+import API from '@/config/api-config';
 
 Http.defaults.headers.post['Content-Type'] = 'application/json;charset=utf-8';
 
@@ -29,8 +29,8 @@ class ApiService {
             verificationCode: this.post.bind(this, API.USER.verificationCode),
             baseInfo: this.post.bind(this, API.USER.baseInfo),
             getMenuList: this.post.bind(this, API.USER.getMenuList),
-            logout: this.post.bind(this, API.USER.logout),
-        }
+            logout: this.post.bind(this, API.USER.logout)
+        };
 
         this.interceptorsOfReq();
         this.interceptorsOfRes();
@@ -45,9 +45,9 @@ class ApiService {
     }
 
     post(url, params) {
-        typeof params === 'undefined' ? params = {} : '';
-        localStorage.sessionid ? params.sessionid = localStorage.sessionid : '';
-        params.userID = localStorage.user ? JSON.parse(localStorage.user).userID : ''; ;
+        (typeof params === 'undefined') && (params = {});
+        // localStorage.sessionid ? params.sessionid = localStorage.sessionid : '';
+        // params.userID = localStorage.user ? JSON.parse(localStorage.user).userID : ''; ;
         return Http.post(url, params).then(res => res.data);
     }
 
@@ -65,15 +65,15 @@ class ApiService {
     interceptorsOfRes() {
         Http.interceptors.response.use(function(response) {
             console.log(response.config.url + '的响应数据↓↓↓\n', response.data);
-            if (response.data.errorCode == 4) {
-                localStorage.removeItem('sessionid');
-                localStorage.removeItem('user');
-                vueVm.loginPopFlag = true;
-            }
+            // if (response.data.errorCode == 4) {
+            //     localStorage.removeItem('sessionid');
+            //     localStorage.removeItem('user');
+            //     vueVm.loginPopFlag = true;
+            // }
 
-            if (typeof response.data.data == null) {
-                alert('没有查询到数据')
-            };
+            // if (typeof response.data.data == null) {
+            //     alert('没有查询到数据');
+            // };
 
             return response;
         }, function(error) {

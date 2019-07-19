@@ -9,10 +9,10 @@ const BASE = process.env.API_ROOT, // http:// 192.168.1.251:8080
         verificationCode: `${USER_URL}validation`,
         baseInfo: `${USER_URL}getUserInfo`,
         getMenuList: `${USER_URL}getMenus`,
-        logout: `${USER_URL}logout`,
+        logout: `${USER_URL}logout`
     };
 // 登录
 export default {
     BASE,
-    USER,
-}
+    USER
+};

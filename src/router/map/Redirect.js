@@ -1,6 +1,6 @@
 export default {
     path: '*',
     redirect: {
-        path: '/index',
-    },
-}
+        path: '/index'
+    }
+};

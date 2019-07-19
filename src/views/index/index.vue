@@ -3,6 +3,7 @@
         主页
     </div>
 </template>
+
 <script>
 // import  from ''
 // import { mapState,mapGetters,mapActions,mapMutations } from 'vuex'
@@ -10,7 +11,7 @@
 
 export default {
     // 组件名
-    name: "index",
+    name: 'index',
     // 实例的数据对象
     data() {
         return {};

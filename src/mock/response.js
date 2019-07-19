@@ -9,7 +9,7 @@ const response = (data = {}, code = 0, message = 'success') => {
     return {
         data,
         code,
-        message,
-    }
-}
-export default response
+        message
+    };
+};
+export default response;
