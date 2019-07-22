@@ -15,5 +15,5 @@ export default {
     COMPANY: /^[\da-zA-Z\u4E00-\u9FA5]{1,25}$/,
     SHORTHAND: /^[\da-zA-Z\u4E00-\u9FA5]{1,10}$/,
     NODENAME: /^[\da-zA-Z\u4E00-\u9FA5]{0,50}$/,
-    NODEDISC: /^(.|\n){0,150}$/,
-}
+    NODEDISC: /^(.|\n){0,150}$/
+};

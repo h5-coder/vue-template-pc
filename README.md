@@ -20,7 +20,7 @@ npm run build
 npm run build --report
 ```
 
-### 开发环境端口
+### 开发环境端口
 
 见[webpack配置文件index.js](./config/index.js)中的`dev.port`,默认值为`8081`;
 
@@ -31,12 +31,12 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 ## Eslint
 
-### 开关
+### eslint开关
 
 `config/index.js`中`config.dev.useEslint`的值
 
-- `true`为开启Eslint代码检查
-- `false`为关闭Eslint代码检查
+- `true`为开启Eslint代码检查
+- `false`为关闭Eslint代码检查
 
 ### 规则
 
@@ -44,7 +44,7 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 ## Mock
 
-### 开关
+### mock开关
 
 `config/dev.env.js`、`config/prod.env.js`中`process.env.MOCK`的值
 
@@ -53,6 +53,6 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 ### mock官网、api
 
-(http://mockjs.com/)[http://mockjs.com/]
+[http://mockjs.com/](http://mockjs.com/)
 
 ### 步骤
