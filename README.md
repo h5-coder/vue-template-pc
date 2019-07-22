@@ -56,3 +56,7 @@ _新增依赖需要跟负责人确认之后，才可安装_
 [http://mockjs.com/](http://mockjs.com/)
 
 ### 步骤
+
+## 参考文献
+
+[vue，react 配置 commitlint 和 eslint 钩子](https://segmentfault.com/a/1190000015798675?utm_source=tag-newest)
