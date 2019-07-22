@@ -29,6 +29,10 @@ npm run build --report
 见:[package.json](./package.json) 中的`dependencies`。
 _新增依赖需要跟负责人确认之后，才可安装_
 
+### 项目开发要求
+
+- 提交代码前，必须保证符合ESLint代码规范
+
 ## Eslint
 
 ### eslint开关
