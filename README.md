@@ -64,3 +64,4 @@ _新增依赖需要跟负责人确认之后，才可安装_
 ## 参考文献
 
 [vue，react 配置 commitlint 和 eslint 钩子](https://segmentfault.com/a/1190000015798675?utm_source=tag-newest)
+[webpack+vue+Eslint+husky+lint-staged 统一项目编码规范](https://www.cnblogs.com/momo798/p/10876691.html)
