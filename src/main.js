@@ -20,21 +20,6 @@ process.env.MOCK && require('./mock/index.js');
 
 Vue.use(ElementUI);
 
-router.beforeEach((to, from, next) => {
-    // if (false) {
-
-    //     next({
-    //         path: '/index',
-    //         query: {
-    //             redirect: to.fullPath,
-    //         }
-    //     })
-    // } else {
-    //     next()
-    // }
-    next();
-});
-
 // Vue.config.silent = true;
 Vue.config.productionTip = false;
 
