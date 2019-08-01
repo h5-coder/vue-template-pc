@@ -1,17 +1,15 @@
 <template>
     <div class="">
-        主页
     </div>
 </template>
 
 <script>
 // import  from ''
 // import { mapState,mapGetters,mapActions,mapMutations } from 'vuex'
-// import apiService from '@/services/API-service'
 
 export default {
-    // 组件名
-    name: 'index',
+    // 组件名 每个文件的name都应该是唯一的
+    name: "index",
     // 实例的数据对象
     data() {
         return {};
@@ -22,14 +20,16 @@ export default {
     computed: {},
     // 方法
     methods: {},
-    // 生命周期函数 请求写在created中
+    // 生命周期函数 请求写在created中,echarts写在mounted中
     created() {},
     beforeMount() {},
     mounted() {},
-    // 组件
-    components: {},
+    beforeDestroy() {},
+    destroyed() {},
     // 监视
     watch: {},
+    // 组件
+    components: {},
     // 过滤器
     filters: {},
     // 自定义指令
@@ -38,8 +38,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.chart {
-    width: 450px;
-    height: 400px;
-}
+
 </style>
