@@ -1,6 +1,6 @@
 # 项目
 
-> A Vue.js template project
+> Vue模板，用于作为PC项目的基础配置项目。
 
 ## 开发说明
 
@@ -22,7 +22,7 @@ npm run build --report
 
 ### 开发环境端口
 
-见[webpack配置文件index.js](./config/index.js)中的`dev.port`,默认值为`8081`;
+见[webpack配置文件index.js](./config/index.js)中的`dev.port`,默认值为`8081`;
 
 ### 技术栈、依赖库
 
@@ -35,7 +35,7 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 ## Eslint
 
-### eslint开关
+### Eslint开关
 
 `config/index.js`中`config.dev.useEslint`的值
 
@@ -48,14 +48,14 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 ## Mock
 
-### mock开关
+### Mock开关
 
 `config/dev.env.js`、`config/prod.env.js`中`process.env.MOCK`的值
 
-- `true`为开启mock
-- `false`为关闭mock
+- `true`为开启Mock
+- `false`为关闭Mock
 
-### mock官网、api
+### Mock官网、api
 
 [http://mockjs.com/](http://mockjs.com/)
 
