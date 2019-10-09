@@ -35,10 +35,11 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     "semi": [2, "always"], // 使用分号结尾
     'no-multi-spaces': 'off',
     'operator-linebreak' : 'off',
     "one-var": 0, // 连续声明
+    'no-debugger': 2 // 禁止使用debugger
   }
 }
