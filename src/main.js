@@ -5,6 +5,7 @@ import router from './router';
 import ElementUI from 'element-ui';
 import store from './store/';
 import '@/../static/js/cookie.js';
+// import '@/../static/js/toFixed.js';
 import './filters/index.js';
 import '@/directives/index.js';
 
