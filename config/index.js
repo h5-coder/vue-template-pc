@@ -2,7 +2,7 @@
 var path = require('path')
 
 module.exports = {
-    build: {
+    build: {      
         env: require('./prod.env'),
         index: path.resolve(__dirname, '../dist/index.html'),
         assetsRoot: path.resolve(__dirname, '../dist'),
@@ -15,7 +15,7 @@ module.exports = {
     },
     dev: {
         env: require('./dev.env'),
-        port: 8081,
+        port: 8088,
         autoOpenBrowser: true,
         assetsSubDirectory: 'static',
         assetsPublicPath: '/',
