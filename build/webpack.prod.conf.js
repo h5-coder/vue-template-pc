@@ -9,7 +9,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin')
 // var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const UglifyJsPlugin = require('u')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 var env = config.build.env
 
