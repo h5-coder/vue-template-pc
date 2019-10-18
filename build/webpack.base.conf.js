@@ -12,15 +12,15 @@ function resolve (dir) {
  对于以.js或.vue后缀结尾的文件(在src目录下或test目录下的文件)，使用eslint进行文件语法检测。
 */
 const createLintingRule = () => ({
-  test: /\.(js|vue)$/,
-  loader: 'eslint-loader',
-  enforce: 'pre',
-  include: [path.resolve(__dirname, '../src')],
-  options: {
-    formatter: require('eslint-friendly-formatter'),
-    emitWarning: !config.dev.showEslintErrorsInOverlay
-  }
-});
+    test: /\.(js|vue)$/,
+    loader: 'eslint-loader',
+    enforce: 'pre',
+    include: [path.resolve(__dirname, '../src')],
+    options: {
+        formatter: require('eslint-friendly-formatter'),
+        emitWarning: !config.dev.showEslintErrorsInOverlay, // 不符合Eslint规则时只警告(默认运行出错)
+    },
+})
 
 module.exports = {
   entry: {
