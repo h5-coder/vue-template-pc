@@ -1,14 +1,22 @@
 {
-  "presets": [
-    ["env", { "modules": false }],
-    "stage-2"
-  ],
-  "plugins": ["transform-runtime"],
-  "comments": false,
-  "env": {
-    "test": {
-      "presets": ["env", "stage-2"],
-      "plugins": [ "istanbul" ]
-    }
-  }
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "modules": false,
+                "targets": {
+                    "chrome": "58",
+                    "ie": "11"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "@babel/plugin-transform-runtime",
+            {
+                "corejs": 2
+            }
+        ]
+    ]
 }
