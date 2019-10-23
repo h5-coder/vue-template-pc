@@ -17,7 +17,9 @@ import '../static/css/iconfont.css';
 // less
 import './less/index.less';
 // mock 动态引入用
-process.env.MOCK && require('./mock/index.js');
+if (process.env.NODE_ENV === 'development') {
+    process.env.MOCK && require('./mock/index.js');
+}
 
 Vue.use(ElementUI);
 
