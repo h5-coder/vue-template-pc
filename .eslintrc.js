@@ -69,6 +69,8 @@ module.exports = {
         "vue/v-on-style": ["error", "shorthand"],
         // v-bind 统一使用简写(:)
         "vue/v-bind-style": ["error", "shorthand"],
+        // 禁止在模板中使用this
+        "vue/this-in-template": ["error", "never"],
         // 每行的最大属性数,当开始标记在一行中时，每行的最大属性数为3，当开始标记位于多行中时，每行的最大属性数为1
         "vue/max-attributes-per-line": ["error", {
             "singleline": 3,
@@ -88,8 +90,8 @@ module.exports = {
             "ignores": []
         }],
 
-        /* --- VUE <script> ---*/
-        // VUE <script> prop 统一使用驼峰式命名
+        /* --- VUE <script> --- */
+        // prop 统一使用驼峰式命名
         "vue/prop-name-casing": ["error", "camelCase"],
     },
 }
