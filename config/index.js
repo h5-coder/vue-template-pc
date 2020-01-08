@@ -22,5 +22,21 @@ module.exports = {
         proxyTable: {},
         cssSourceMap: false,
         useEslint:true,//Eslint开关
+        /*  proxyTable.cookieDomainRewrite：重写set-cookie标题的域。
+            可能的值：
+                false （默认值）：禁用cookie重写
+                字符串：例如新域cookieDomainRewrite: "new.domain"。要删除域，请使用cookieDomainRewrite: ""。
+                对象：将域映射到新域，用于"*"匹配所有域。
+        */
+        // proxyTable:{
+        //     '/api':{
+        //         target:'http://localhost:8888',
+        //         changeOrigin: true,
+        //         pathRewrite:{
+        //             '^/api': ''
+        //         },
+        //         cookieDomainRewrite:'localhost'
+        //     },
+        // },
     }
 }
