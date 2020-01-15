@@ -1,3 +1,4 @@
+import Mock from "mockjs";
 /**
  * @description mock数据返回的结构体，
  * @param {*} [data={}] 具体业务数据
@@ -6,6 +7,8 @@
  * @returns
  */
 const response = (data = {}, code = 0, message = 'success') => {
+    data = Mock.mock(data);
+
     return {
         data,
         code,
