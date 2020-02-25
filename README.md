@@ -59,9 +59,17 @@ _新增依赖需要跟负责人确认之后，才可安装_
 
 [http://mockjs.com/](http://mockjs.com/)
 
-### 步骤
+### 版本
+
+- 2.0.2
+    1. `vue`: "^2.6.10" => "^2.6.11"
+    2. `vue-template-compiler`: "^2.6.10" => "^2.6.11"
+    3. 添加`@babel/runtime`插件
+    4. 添加`babel/runtime-corejs2`插件
+    5. `uglifyjs-webpack-plugin`: "^2.2.0" => "^1.0.0-rc.0",解决打包后报错问题
 
 ## 参考文献
 
 [vue，react 配置 commitlint 和 eslint 钩子](https://segmentfault.com/a/1190000015798675?utm_source=tag-newest)
 [webpack+vue+Eslint+husky+lint-staged 统一项目编码规范](https://www.cnblogs.com/momo798/p/10876691.html)
+[升级到Babel 7](https://babeljs.io/docs/en/v7-migration)
