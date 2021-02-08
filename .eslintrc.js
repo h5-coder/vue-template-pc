@@ -43,6 +43,7 @@ module.exports = {
         'no-debugger': 2, // 禁止使用debugger
         // 禁止使用var，要求使用 let 或 const
         'no-var': 0,
+        'comma-dangle': [2, 'only-multiline'],
 
         /* --- VUE <template> ---*/
         // HTML属性的引号样式 使用双引号
